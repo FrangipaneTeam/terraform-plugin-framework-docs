@@ -1,0 +1,46 @@
+site_name: Frangipane documentation site
+
+theme:
+  name: material
+  palette:
+    - scheme: orangeCorp
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.annotate
+    - header.autohide
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github-alt
+  favicon: images/favicon.png
+  logo: images/logo.png
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - multirepo:
+      cleanup: false
+
+nav:
+  - Overview: "index.md"
+  - Terraform:
+    - PlanModifiers: '!import https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers?branch=main'
+    - Validators: '!import https://github.com/FrangipaneTeam/terraform-plugin-framework-validators?branch=main'
+  - FrangipaneTeam:
+      - About: "https://frangipane.io/"
+      - GitHub: "https://github.com/FrangipaneTeam"
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: false

@@ -1,0 +1,16 @@
+---
+name: github page
+
+on:
+  repository_dispatch:
+
+jobs:
+  page:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material mkdocs-multirepo-plugin
+      - run: mkdocs gh-deploy --force
