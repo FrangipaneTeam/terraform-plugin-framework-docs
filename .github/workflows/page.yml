@@ -3,6 +3,9 @@ name: github page
 
 on:
   repository_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   page:

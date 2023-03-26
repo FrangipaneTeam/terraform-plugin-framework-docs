@@ -3,7 +3,7 @@
 Welcome to the **Frangipane** documentation site.
 Frangipane Team is a french team of Orange Business. We are working on lots of projects based on Golang language.
 
-This site contains documentation for the following projects:
+This site contains documentation for the following projects
 
 ## Terraform
 
