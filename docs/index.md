@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Overview
 
 Welcome to the **Frangipane** documentation site.
