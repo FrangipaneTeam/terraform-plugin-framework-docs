@@ -3,6 +3,7 @@ name: github page
 
 on:
   repository_dispatch:
+    types: [update-doc]
   push:
     branches:
       - main
