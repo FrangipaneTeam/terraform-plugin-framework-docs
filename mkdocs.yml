@@ -28,6 +28,7 @@ plugins:
 nav:
   - Overview: "index.md"
   - Terraform:
+    - SuperSchema: '!import https://github.com/FrangipaneTeam/terraform-plugin-framework-superschema?branch=main'
     - PlanModifiers: '!import https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers?branch=main'
     - Validators: '!import https://github.com/FrangipaneTeam/terraform-plugin-framework-validators?branch=main'
   - FrangipaneTeam:
