@@ -6,7 +6,7 @@ hide:
 # Overview
 
 Welcome to the **Frangipane** documentation site.
-Frangipane Team is a french team of Orange Business. We are working on lots of projects based on Golang language.
+Frangipane Team is a french team. We are working on lots of projects based on Go language.
 
 This site contains documentation for the following projects
 

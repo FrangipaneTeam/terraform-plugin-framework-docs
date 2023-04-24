@@ -3,7 +3,7 @@ site_name: Frangipane documentation
 theme:
   name: material
   palette:
-    - scheme: orangeCorp
+    - scheme: frangipaneCorp
   features:
     - navigation.sections
     - navigation.top
